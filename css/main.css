@@ -1,0 +1,177 @@
+/* ---------- Globals ---------- */
+
+header {
+	background-color: #f36c60;
+	text-align: center;
+	height: 200px;
+}
+
+h1, h2, h3, p {
+	font-family: 'Roboto', sans-serif;
+	color: #777;
+}
+
+h1, h3 {
+	padding: 10px 0px;
+	color: #fff;
+}
+
+h1 {
+	padding: 80px 0px 0px 40px;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+
+/* ---------- Form ---------- */
+
+form {
+	text-align: center;
+	margin: 50px 20px;
+}
+
+input {
+	width: 25%;
+	height: 30px;
+	margin: 0px 10px;
+	outline: none;
+	line-height: 20px; 
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px; 
+	border: 2px #42bd41 solid;
+	color: #777;
+}
+
+.find-btn {
+	padding: 6px 28px;
+	margin: 0px 10px;
+	background-color: #039be5;
+	border-radius: 2px;  
+	border: 1px #0288d1 solid;
+	color: #fff;
+	font-size: 20px;
+}
+
+.find-btn:hover {
+	cursor: pointer;
+}
+
+/* ---------- Profiles ---------- */
+
+.results {
+	margin: auto;
+	text-align: center;
+}
+
+.profile {
+	height: 300px;
+	width: 300px;
+	border: 2px #9575cd solid;
+	margin: 0px 20px;
+	border-radius: 2px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+.section1 {
+	display: inline-block;
+	width: 100%;
+}
+
+.image, .username-location {
+	display: inline-block;
+}
+
+.username {
+	color: #039be5;
+}
+
+.username:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.image {
+	width: 100px;
+	padding: 10px 10px;
+}
+
+.image:hover {
+	cursor: pointer;
+}
+
+.username-location {
+	font-size: 28px;
+	vertical-align: top;
+	margin: 20px 0px;
+}
+
+.location {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.contribs, .followers, .lang {
+	margin: 10px 10px;
+}
+
+.section3 {
+	text-align: center;
+}
+
+.follow-btn {
+	margin-top: 20px;
+	background-color: #ff9800;
+	border: 1px #ef6c00 solid;
+	color: #fff;
+	padding: 6px 28px;
+	font-size: 20px;
+	border-radius: 2px; 
+	outline: none; 
+}
+
+.follow-btn:hover {
+	cursor: pointer;
+}
+
+/* ---------- Load More ---------- */
+
+.load-section {
+	text-align: center;
+	margin: auto;
+}
+
+
+.load {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/load.gif);
+	background-size: 100%;
+	margin: auto;
+}
+
+.load-btn {
+	margin-top: 0px;
+	background-color: #e91e63;
+	border: 1px #c2185b solid;
+	color: #fff;
+	padding: 6px 28px;
+	font-size: 20px;
+	border-radius: 2px;  
+	outline: none;
+}
+
+.load-btn:hover {
+	cursor: pointer;
+}
+
+
+/* ---------- Following Styles ---------- */
+
+
+
+
+
+

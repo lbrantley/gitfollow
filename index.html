@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GitFollow</title>
+
+	<!-- CSS -->
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+	
+	<!-- Javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/app.js"></script>
+
+</head>
+<body>
+	<header>
+		<h1>GitFollow</h1>
+		<h3>Find and follow the top GitHub users on any topic.</h3> 
+	</header>
+	<div clas="container">
+		<form>
+			<input type="text" placeholder='E.g. "Javascript" or "Facebook"' name="search" size="30" autofocus required>
+			<button type="submit" class="find-btn">Find</button>
+		</form>
+		<div class="results">
+			<div class="profile left">
+				<div class="section1">
+					<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/t1.0-1/p320x320/1456768_10152402237353574_2144486449_n.jpg" class="image" />
+					<h2 class="username-location"><span class="username">dtoakley</span> <br/>
+					<span class="location">Melbourne, Australia</span></h2>
+				</div>
+				<div class="section2"> 
+					<p class="contribs">Contributions: 2084</p>
+					<p class="followers">Followers: 534</p>
+					<p class="lang">language: Ruby</p>
+				</div>
+				<div class="section3">
+					<button class="follow-btn">
+						Follow
+					</button>
+				</div>
+
+			</div>
+			<div class="profile">
+			<div class="section1">
+					<img src="https://avatars0.githubusercontent.com/u/671378?v=2" class="image" />
+					<h2 class="username-location"><span class="username">kevinsawicki</span> <br/>
+					<span class="location">Redwood City, CA</span></h2>
+				</div>
+				<div class="section2">
+					<p class="contribs">Contributions: 5047</p>
+					<p class="followers">Followers: 1129</p>
+					<p class="lang">language: Javascript</p>
+				</div>
+				<div class="section3">
+					<button class="follow-btn">
+						Following <i class="fa fa-check"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="load-section">
+			<div class="load">
+			</div>
+			<button class="load-btn">
+				Load more
+			</button>
+		</div>
+	</div>
+</body>
+</html>
