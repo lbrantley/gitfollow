@@ -65,7 +65,7 @@ input {
 }
 
 .profile {
-	height: 300px;
+	height: 270px;
 	width: 300px;
 	border: 2px #9575cd solid;
 	margin: 0px 20px;
@@ -113,7 +113,7 @@ input {
 	font-size: 16px;
 }
 
-.contribs, .followers, .lang {
+.repos, .followers, .lang {
 	margin: 10px 10px;
 }
 
@@ -170,6 +170,10 @@ input {
 
 /* ---------- Following Styles ---------- */
 
+.following {
+	background-color: #bdbdbd;
+	border: 1px #616161 solid;
+}
 
 
 
