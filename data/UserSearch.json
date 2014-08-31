@@ -1,5 +1,5 @@
 {
-  "total_count": 2,
+  "total_count": 3,
   "incomplete_results": false,
   "items": [
     {
@@ -21,7 +21,47 @@
     "type": "User",
     "site_admin": false,
     "score": 31.002472
-    }
+    },
+    {
+    "login": "kevinsawicki",
+    "id": 671378,
+    "avatar_url": "https://avatars.githubusercontent.com/u/671378?v=2",
+    "gravatar_id": "4e3f068bcac207404306e790c0d662ed",
+    "url": "https://api.github.com/users/kevinsawicki",
+    "html_url": "https://github.com/kevinsawicki",
+    "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+    "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+    "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+    "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+    "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+    "type": "User",
+    "site_admin": true,
+    "score": 124.02098
+    },
+    {
+    "login": "DToakley",
+    "id": 2144730,
+    "avatar_url": "https://avatars.githubusercontent.com/u/2144730?v=2",
+    "gravatar_id": "f6cd77dc083c891a9bf680dac4146c4c",
+    "url": "https://api.github.com/users/DToakley",
+    "html_url": "https://github.com/DToakley",
+    "followers_url": "https://api.github.com/users/DToakley/followers",
+    "following_url": "https://api.github.com/users/DToakley/following{/other_user}",
+    "gists_url": "https://api.github.com/users/DToakley/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/DToakley/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/DToakley/subscriptions",
+    "organizations_url": "https://api.github.com/users/DToakley/orgs",
+    "repos_url": "https://api.github.com/users/DToakley/repos",
+    "events_url": "https://api.github.com/users/DToakley/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/DToakley/received_events",
+    "type": "User",
+    "site_admin": false,
+    "score": 31.002472
+    },  
     {
     "login": "kevinsawicki",
     "id": 671378,

@@ -22,6 +22,11 @@ h1 {
 	font-weight: 600;
 }
 
+.container {
+	margin: auto;
+	text-align: center;
+	width: 800px;
+}
 
 /* ---------- Form ---------- */
 
@@ -62,13 +67,14 @@ input {
 .results {
 	margin: auto;
 	text-align: center;
+	margin-bottom: -20px;
 }
 
 .profile {
 	height: 300px;
 	width: 300px;
 	border: 2px #9575cd solid;
-	margin: 0px 20px;
+	margin: 0px 20px 40px 20px;
 	border-radius: 2px;
 	display: inline-block;
 	text-align: left;
@@ -113,7 +119,7 @@ input {
 	font-size: 16px;
 }
 
-.contribs, .followers, .lang {
+.repos, .followers, .lang {
 	margin: 10px 10px;
 }
 
@@ -167,6 +173,9 @@ input {
 	cursor: pointer;
 }
 
+.hidden {
+	display: none;
+}
 
 /* ---------- Following Styles ---------- */
 
